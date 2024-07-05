@@ -143,17 +143,37 @@ The experiment was conducted from June 18 to June 30, 2024 amounting to 1116 dat
 Statistical analyses, including box plot, map graph, regression analysis, time series graph, was used to examined the relationship between download speed, upload speed, ping, jitter, and latency.
 MS Excel and R was used to analyze the data. The statistical analysis was done to determine the factors that affect the internet speed test.
 
-\begin{thebibliography}{00}
-\bibitem{b1} A. Boonsongsrikul et al., "Performance Metrics and Strategy for Evaluating Internet Speed Tests in Fixed Broadband Networks," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 424-428, doi: 10.1109/BigComp60711.2024.00093.
-\bibitem{b2} A. Saengsai et al., "Broadband Internet Speed Dashboard for Sustainable Service Improvement in Thailand," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 418-423, doi: 10.1109/BigComp60711.2024.00092. 
-\bibitem{b3} C. Overturf., “How does Speedtest measure my network speeds?” SPEEDTEST. https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-Speedtest-measure-my-network-speeds (accessed June 30, 2024)
-\bibitem{b4} E. M. Rio, Jr.,  “rules and regulations implementing republic act (r.a.) no. 10929 known as the free internet access in public places act”, DICT. https://dict.gov.ph/wp-content/uploads/2017/12/IRR-RA-10929-Version-8.pdf (accessed June 30, 2024).
-\bibitem{b5} G. S. Ford, “Comparative Analysis of Fixed Broadband Speeds in Cities Across the World”, ResearchGate, Jan, 2022, doi: 10.2139/ssrn.4159788
-\bibitem{b6} R. B. Ikhsan, G. Mohammed, I. Putriana, T. Sriwidadi, Aries and J. W. Wahono, "Customer Loyalty Based On Internet Service Providers-Service Quality," 2022 6th International Conference on Informatics and Computational Sciences (ICICoS), Semarang, Indonesia, 2022, pp. 18-23, doi: 10.1109/ICICoS56336.2022.9930615.
-\bibitem{b7} R. Sharma, M. Richardson, G. Martins, and N. Feamster, “Measuring the Prevalence of WiFi Bottlenecks in Home Access Networks,” arXiv, Nov. 9 2023, doi: 10.48550/arxiv.2311.05499.
-\bibitem{b8} S. Bebortta and S. K. Das, "Assessing the Impact of Network Performance on Popular E-Learning Applications," 2020 Sixth International Conference on e-Learning (econf), Sakheer, Bahrain, 2020, pp. 61-65, doi: 10.1109/econf51404.2020.9385497.
-\bibitem{b8} W. Woo and S. Hasan, “What's my Daily Value? Interpretation of network performance metrics in broadband consumer labels”, Association for Computing Machinery, New York, NY, USA, 2023, pp. 8-24, doi: 10.1145/3609396.3610546
-\bibitem{b9} X. Deng, Y. Fung, T. Sutjarittham, H. H. Gharakheili, B. Gallego, V. Sivaraman, “Comparing Broadband ISP Performance using Big Data from M-Lab”, arXiv, Jan. 24, 2021, doi: 10.48550/arXiv.2101.09795.
-\end{thebibliography}
+\section{Literature Review (Condensed Form)}
 
+The internet operates by sending network access from an Internet Service Provider (ISP) from their Optic Line Terminal (OLT), which sends information through a line to an Optic Network Terminal (ONT), which is then given to customers via signal. In Thailand, Boonsongsrikul et al. [3] presented data that clearly shows how the speed of an internet network could exceed its advertised internet speed plan. However, this research gave a warning about the Optical Time Domain Reflectometer (OPTDR), which was the device that was used in evaluating the internet performance metrics during the experiment, that it is not exactly a device used for evaluating internet performance everyday. Furthermore, Sharma et al. [9] showed that changing an ISP will not make much of a difference if a client uses bottleneck WiFi, which is a concept that says the speed of WiFi that a gadget receives is different from the internet's access connection.
+
+On the other hand, Bebortta and Das [2] showed that individuals should pay attention to the type of internet that they are using such as: broadband, cellular data, and etc. For instance, in their methodology they used 4G-LTE, or cellular data internet, to evaluate that the best performing online meeting platform is Microsoft Teams. On the other hand, Deng et al. [4] examined the differences in broadband ISP's speed performance, then concluded that the ISP does not really affect the broadband's performance through statistical tests such as the spearman rho. Likewise, Saengsai et al. [8] evaluated the performance of the broadband internet around the provinces in Thailand with their very own broadband internet speed dashboard, which concluded that ISP's should improve their upload speed.
+
+Individuals also use different software programs to test internet speed, which may influence the measurement of their internet's performance metrics. On their official website, Speedtest [6] mentioned that they use the TCP Test Components and HTTP Legacy Fallback Testing to evaluate internet speed. The information gathering methods from speedtest simply measure how a unit of data (ping) and a chunk of data (download and upload) move around a computer and the network that is connected to this same computer. Similarly, a Bauer et al. [1] stated that Ookla usually results in higher measured data rates compared to other internet speed testing softwares, while also discussing how Ookla gathers its data by filtering 10\% of their fastest data and 30\% of their slowest data.
+
+Research data also encompassed the topic of people's understanding of the internet. A Hasan and Woo [10] indicated that older adults, particularly those in America, evaluate the quality of their internet by relying on the performance of the internet on their devices and their “tech savvy” relatives. This information suggests that some old adult Americans do not understand internet 'jargon.' However, Ikhsan et al. [5] showed that some people, whose mean monthly income is 4 to 15 million rupiahs, rely on network quality, customer service, information quality, security, and privacy for the evaluation of their internet. ISP's monitor this kind of information to maintain customer loyalty.
+
+However, in the Philippines, the department of Information and Communications Technology (DICT) [7] released a proposal to provide free internet access for public spaces. This internet is meant to be provided to public universities, government offices, and some open areas. However, the minimum goal internet download speed in the proposal is only 2 mbps. This paper shows how the Philippines understands the importance of providing internet to the public and an internet's performance metrics to reach their aim to provide free accessible internet for the Filipino people.
+
+\section{Hypothesis}
+Hypothesis 1: The internet speed will not exceed the customer's plan.
+\begin{itemize}
+    \item Alternative Hypothesis: The internet speed will exceed the customer's plan.
+    \item Research Gap: There is no set parameter for the customer to consistently and continuously monitor their internet to determine the instances whether the internet could exceed or fall short from the customer's plan or not. Additionally, there are no definite measures to determine whether the provider of the internet gives their customer the actual or precise speed for their agreed internet plan.
+\end{itemize}
+
+\begin{thebibliography}{00}
+\bibitem{b1} S. Bauer et al., “Understanding broadband speed measurements”, MIT. Accessed: June 30,2024. [Online]. Available: https://groups.csail.mit.edu/ana/Publications/Understanding\_broadband\_
+speed\_measurements\_bauer\_clark\_lehr\_TPRC\_2010.pdf.
+\bibitem{b2} S. Bebortta and S. K. Das, "Assessing the Impact of Network Performance on Popular E-Learning Applications," 2020 Sixth International Conference on e-Learning (econf), Sakheer, Bahrain, 2020, pp. 61-65, doi: 10.1109/econf51404.2020.9385497.
+\bibitem{b3} A. Boonsongsrikul et al., "Performance Metrics and Strategy for Evaluating Internet Speed Tests in Fixed Broadband Networks," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 424-428, doi: 10.1109/BigComp60711.2024.00093.
+\bibitem{b4} X. Deng et al., “Comparing Broadband ISP Performance using Big Data from M-Lab”, arXiv, Jan. 24, 2021, doi: 10.48550/arXiv.2101.09795.
+\bibitem{b5} R. B. Ikhsan et al., "Customer Loyalty Based On Internet Service Providers-Service Quality," 2022 6th International Conference on Informatics and Computational Sciences (ICICoS), Semarang, Indonesia, 2022, pp. 18-23, doi: 10.1109/ICICoS56336.2022.9930615.
+\bibitem{b6} C. Overturf., “How does Speedtest measure my network speeds?” SPEEDTEST. Accessed: June 30, 2024. [Online]. Available: https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-Speedtest-measure-my-network-speeds
+\bibitem{b7} E. M. Rio, Jr.,  “rules and regulations implementing republic act (r.a.) no. 10929 known as the free internet access in public places act”. DICT. Accessed: June 30, 2024. [Online]. Available: https://dict.gov.ph/wp-content/uploads/2017/12/IRR-RA-10929-Version-8.pdf (accessed June 30, 2024).
+\bibitem{b8} A. Saengsai et al., "Broadband Internet Speed Dashboard for Sustainable Service Improvement in Thailand," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 418-423, doi: 10.1109/BigComp60711.2024.00092. 
+\bibitem{b9} R. Sharma et al., “Measuring the Prevalence of WiFi Bottlenecks in Home Access Networks,” arXiv, Nov. 9 2023, doi: 10.48550/arxiv.2311.05499.
+\bibitem{b10} S. Hasan and W. Woo, “What's my Daily Value? Interpretation of network performance metrics in broadband consumer labels”, Association for Computing Machinery, New York, NY, USA, 2023, pp. 8-24, doi: 10.1145/3609396.3610546
+
+\end{thebibliography}
 \end{document}

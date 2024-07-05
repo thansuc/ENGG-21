@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1719742562 "/home/RPi4/Computer Programming/LaTeX/Conference-LaTeX-template_10-17-19/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1719742565 0
+["pdflatex"] 1720186516 "/home/RPi4/Computer Programming/LaTeX/Conference-LaTeX-template_10-17-19/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1720186518 0
   "/etc/texmf/web2c/texmf.cnf" 1719301548 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/RPi4/Computer Programming/LaTeX/Conference-LaTeX-template_10-17-19/conference_101719.tex" 1719742561 8456 a99ede187e88b723fcedffd9433c696c ""
+  "/home/RPi4/Computer Programming/LaTeX/Conference-LaTeX-template_10-17-19/conference_101719.tex" 1720186516 12915 6c880bbb69a1fb19b4b3454f4643345a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -29,6 +29,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb" 1136849748 44656 0cbca70e0534538582128f6b54593cca ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -69,8 +70,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719301637 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719301862 7879585 cac60ce4e0bed93f7ffb7f34aeb2f5a1 ""
   "IEEEtran.cls" 1440611324 288304 b67b6fc6c2abb39f9b461923f5199343 ""
-  "conference_101719.aux" 1719742564 779 58fb2e4eb40184f099c0293347d40e32 "pdflatex"
-  "conference_101719.tex" 1719742561 8456 a99ede187e88b723fcedffd9433c696c ""
+  "conference_101719.aux" 1720186517 1001 9dd79daf21e0a0a6f39a91d327ccd291 "pdflatex"
+  "conference_101719.tex" 1720186516 12915 6c880bbb69a1fb19b4b3454f4643345a ""
   "experimental_setup.png" 1719734601 235571 63e5c49d3c1ba3049c2c8093040f29e7 ""
   (generated)
   "conference_101719.aux"
