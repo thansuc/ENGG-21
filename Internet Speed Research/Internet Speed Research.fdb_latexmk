@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1720441518 "/mnt/external_1tb/programming/LaTeX/Internet Speed Research/Internet Speed Research.tex" "Internet Speed Research.pdf" "Internet Speed Research" 1720441519 0
+["pdflatex"] 1720441887 "/mnt/external_1tb/programming/LaTeX/Internet Speed Research/Internet Speed Research.tex" "Internet Speed Research.pdf" "Internet Speed Research" 1720441890 0
   "/etc/texmf/web2c/texmf.cnf" 1719301548 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/external_1tb/programming/LaTeX/Internet Speed Research/Internet Speed Research.tex" 1720359975 12918 317b9d36d895f636d0baff61c5d6c1c3 ""
+  "/mnt/external_1tb/programming/LaTeX/Internet Speed Research/Internet Speed Research.tex" 1720441885 13134 e34c08ac854c640d9536c3d11cda7201 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -69,10 +69,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719301637 4623455 fa0568a71dd9a288d6c226ee477506c6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719301862 7879585 cac60ce4e0bed93f7ffb7f34aeb2f5a1 ""
+  "Figures/Picture1.png" 1720441482 26681 9e8cc598b3f888a8f1637a8c6e30970e ""
+  "Figures/experimental_setup.png" 1720359975 235571 63e5c49d3c1ba3049c2c8093040f29e7 ""
   "IEEEtran.cls" 1720359975 288304 b67b6fc6c2abb39f9b461923f5199343 ""
-  "Internet Speed Research.aux" 1720441519 1001 9dd79daf21e0a0a6f39a91d327ccd291 "pdflatex"
-  "Internet Speed Research.tex" 1720359975 12918 317b9d36d895f636d0baff61c5d6c1c3 ""
-  "experimental_setup.png" 1720359975 235571 63e5c49d3c1ba3049c2c8093040f29e7 ""
+  "Internet Speed Research.aux" 1720441889 1252 e5980110192aeca2e423e8a6f23f5c11 "pdflatex"
+  "Internet Speed Research.tex" 1720441885 13134 e34c08ac854c640d9536c3d11cda7201 ""
   (generated)
   "Internet Speed Research.aux"
   "Internet Speed Research.log"
