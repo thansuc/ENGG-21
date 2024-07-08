@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.25)  8 JUL 2024 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.25)  8 JUL 2024 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -228,7 +228,26 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box55
-) (./Internet Speed Research.aux)
+) (./Internet Speed Research.aux
+
+LaTeX Warning: Label `fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig17' multiply defined.
+
+
+LaTeX Warning: Label `fig17' multiply defined.
+
+
+LaTeX Warning: Label `fig17' multiply defined.
+
+
+LaTeX Warning: Label `fig17' multiply defined.
+
+
+LaTeX Warning: Label `fig17' multiply defined.
+
+)
 \openout1 = `"Internet Speed Research.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -289,38 +308,143 @@ File: Figures/Picture1.png Graphic file (type png)
 <use Figures/Picture1.png>
 Package pdftex.def Info: Figures/Picture1.png  used on input line 167.
 (pdftex.def)             Requested size: 284.54076pt x 145.40659pt.
+<Figures/Picture2.png, id=13, 431.211pt x 223.599pt>
+File: Figures/Picture2.png Graphic file (type png)
+<use Figures/Picture2.png>
+Package pdftex.def Info: Figures/Picture2.png  used on input line 173.
+(pdftex.def)             Requested size: 284.54092pt x 147.54507pt.
+<Figures/Picture3.png, id=14, 436.029pt x 223.38pt>
+File: Figures/Picture3.png Graphic file (type png)
+<use Figures/Picture3.png>
+Package pdftex.def Info: Figures/Picture3.png  used on input line 179.
+(pdftex.def)             Requested size: 284.53989pt x 145.7713pt.
+<Figures/Picture4.png, id=15, 438.876pt x 217.029pt>
+File: Figures/Picture4.png Graphic file (type png)
+<use Figures/Picture4.png>
+Package pdftex.def Info: Figures/Picture4.png  used on input line 185.
+(pdftex.def)             Requested size: 284.54277pt x 140.70952pt.
+<Figures/Picture5.png, id=16, 430.335pt x 217.029pt>
+File: Figures/Picture5.png Graphic file (type png)
+<use Figures/Picture5.png>
+Package pdftex.def Info: Figures/Picture5.png  used on input line 191.
+(pdftex.def)             Requested size: 284.54071pt x 143.50119pt.
+<Figures/Picture6.png, id=17, 421.794pt x 217.029pt>
+File: Figures/Picture6.png Graphic file (type png)
+<use Figures/Picture6.png>
+Package pdftex.def Info: Figures/Picture6.png  used on input line 197.
+(pdftex.def)             Requested size: 284.53133pt x 146.40215pt.
+<Figures/Picture7.png, id=18, 432.744pt x 217.029pt>
+File: Figures/Picture7.png Graphic file (type png)
+<use Figures/Picture7.png>
+Package pdftex.def Info: Figures/Picture7.png  used on input line 203.
+(pdftex.def)             Requested size: 284.5422pt x 142.7031pt.
+<Figures/Picture17.png, id=19, 1967.058pt x 349.962pt>
+File: Figures/Picture17.png Graphic file (type png)
+<use Figures/Picture17.png>
+Package pdftex.def Info: Figures/Picture17.png  used on input line 209.
+(pdftex.def)             Requested size: 284.51076pt x 50.61769pt.
+<Figures/Picture18.png, id=21, 1968.591pt x 300.03pt>
+File: Figures/Picture18.png Graphic file (type png)
+<use Figures/Picture18.png>
+Package pdftex.def Info: Figures/Picture18.png  used on input line 215.
+(pdftex.def)             Requested size: 284.52222pt x 43.3636pt.
+<Figures/Picture19.png, id=22, 1981.95pt x 300.687pt>
+File: Figures/Picture19.png Graphic file (type png)
+<use Figures/Picture19.png>
+Package pdftex.def Info: Figures/Picture19.png  used on input line 221.
+(pdftex.def)             Requested size: 284.51752pt x 43.16492pt.
+<Figures/Picture20.png, id=23, 1978.665pt x 300.468pt>
+File: Figures/Picture20.png Graphic file (type png)
+<use Figures/Picture20.png>
+Package pdftex.def Info: Figures/Picture20.png  used on input line 227.
+(pdftex.def)             Requested size: 284.49881pt x 43.20224pt.
+<Figures/Picture21.png, id=24, 1970.781pt x 346.239pt>
+File: Figures/Picture21.png Graphic file (type png)
+<use Figures/Picture21.png>
+Package pdftex.def Info: Figures/Picture21.png  used on input line 233.
+(pdftex.def)             Requested size: 284.50795pt x 49.98412pt.
+<Figures/Picture22.png, id=25, 1975.38pt x 317.112pt>
+File: Figures/Picture22.png Graphic file (type png)
+<use Figures/Picture22.png>
+Package pdftex.def Info: Figures/Picture22.png  used on input line 239.
+(pdftex.def)             Requested size: 284.50876pt x 45.67279pt.
+<Figures/Picture23.png, id=26, 1975.818pt x 284.919pt>
+File: Figures/Picture23.png Graphic file (type png)
+<use Figures/Picture23.png>
+Package pdftex.def Info: Figures/Picture23.png  used on input line 245.
+(pdftex.def)             Requested size: 284.51155pt x 41.02742pt.
+<Figures/Picture24.png, id=27, 386.754pt x 227.979pt>
+File: Figures/Picture24.png Graphic file (type png)
+<use Figures/Picture24.png>
+Package pdftex.def Info: Figures/Picture24.png  used on input line 251.
+(pdftex.def)             Requested size: 284.52928pt x 167.72083pt.
+<Figures/Picture25.png, id=28, 391.134pt x 227.541pt>
+File: Figures/Picture25.png Graphic file (type png)
+<use Figures/Picture25.png>
+Package pdftex.def Info: Figures/Picture25.png  used on input line 257.
+(pdftex.def)             Requested size: 284.52875pt x 165.52371pt.
+<Figures/Picture26.png, id=29, 387.849pt x 228.636pt>
+File: Figures/Picture26.png Graphic file (type png)
+<use Figures/Picture26.png>
+Package pdftex.def Info: Figures/Picture26.png  used on input line 263.
+(pdftex.def)             Requested size: 284.52998pt x 167.7297pt.
+<Figures/Picture27.png, id=30, 389.382pt x 228.198pt>
+File: Figures/Picture27.png Graphic file (type png)
+<use Figures/Picture27.png>
+Package pdftex.def Info: Figures/Picture27.png  used on input line 269.
+(pdftex.def)             Requested size: 284.53168pt x 166.75027pt.
+<Figures/Picture29.png, id=31, 393.105pt x 227.76pt>
+File: Figures/Picture29.png Graphic file (type png)
+<use Figures/Picture29.png>
+Package pdftex.def Info: Figures/Picture29.png  used on input line 275.
+(pdftex.def)             Requested size: 284.53494pt x 164.8559pt.
+<Figures/Picture30.png, id=32, 387.849pt x 226.446pt>
+File: Figures/Picture30.png Graphic file (type png)
+<use Figures/Picture30.png>
+Package pdftex.def Info: Figures/Picture30.png  used on input line 281.
+(pdftex.def)             Requested size: 284.52998pt x 166.1231pt.
+<Figures/Picture31.png, id=33, 387.849pt x 226.446pt>
+File: Figures/Picture31.png Graphic file (type png)
+<use Figures/Picture31.png>
+Package pdftex.def Info: Figures/Picture31.png  used on input line 287.
+(pdftex.def)             Requested size: 284.52998pt x 166.1231pt.
+<Figures/Picture32.png, id=34, 387.849pt x 226.665pt>
+File: Figures/Picture32.png Graphic file (type png)
+<use Figures/Picture32.png>
+Package pdftex.def Info: Figures/Picture32.png  used on input line 293.
+(pdftex.def)             Requested size: 284.52998pt x 166.28375pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 []\OT1/ptm/m/n/8 S. Bauer et al., \Un-der-stand-ing broad-band speed mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 \OT1/ptm/m/n/8 ments", MIT. Ac-cessed: June 30,2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 \OT1/ptm/m/n/8 https://groups.csail.mit.edu/ana/Publications/Understanding[]broadband[]
  []
 
 [2 <./Figures/experimental_setup.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 \OT1/ptm/m/n/8 SPEEDTEST. Ac-cessed: June 30, 2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 \OT1/ptm/m/n/8 https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-
  []
 
-
-Underfull \hbox (badness 3088) in paragraph at lines 182--183
+[3 <./Figures/Picture1.png> <./Figures/Picture2.png> <./Figures/Picture3.png> <./Figures/Picture4.png> <./Figures/Picture5.png> <./Figures/Picture6.png>] [4 <./Figures/Picture7.png> <./Figures/Picture17.png> <./Figures/Picture18.png> <./Figures/Picture19.png> <./Figures/Picture20.png> <./Figures/Picture21.png> <./Figures/Picture22.png> <./Figures/Picture23.png> <./Figures/Picture24.png> <./Figures/Picture25.png> <./Figures/Picture26.png>]
+Underfull \hbox (badness 3088) in paragraph at lines 308--309
 []\OT1/ptm/m/n/8 R. Sharma et al., \Mea-sur-ing the Preva-lence of WiFi Bot-tle-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 182--183
+Underfull \hbox (badness 3930) in paragraph at lines 308--309
 \OT1/ptm/m/n/8 necks in Home Ac-cess Net-works," arXiv, Nov. 9 2023, doi:
  []
 
@@ -335,22 +459,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[5 <./Figures/Picture27.png> <./Figures/Picture29.png> <./Figures/Picture30.png> <./Figures/Picture31.png> <./Figures/Picture32.png>] (./Internet Speed Research.aux)
 
- <./Figures/Picture1.png>] (./Internet Speed Research.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4129 strings out of 476091
- 64812 string characters out of 5794081
- 1869330 words of memory out of 5000000
- 24481 multiletter control sequences out of 15000+600000
+ 4291 strings out of 476091
+ 68438 string characters out of 5794081
+ 1871330 words of memory out of 5000000
+ 24622 multiletter control sequences out of 15000+600000
  549792 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,62p,1044b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Internet Speed Research.pdf" (3 pages, 380325 bytes).
+Output written on "Internet Speed Research.pdf" (5 pages, 3967444 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
