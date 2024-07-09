@@ -5,6 +5,8 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{booktabs}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -66,11 +68,6 @@ ping, download speed, upload speed, internet
     Variation in latency over time (measured in ms).
 
     \textbf{Source}: Data gathered from the Ookla Speedtest using Raspberry Pi 4. 
-    \item[6.] 
-    \textbf{Latency}: 
-    Time it takes for data to travel from your device to a server and back (measured in ms).
-
-    \textbf{Source}: Data gathered from the Ookla Speedtest using Raspberry Pi 4. 
 \end{enumerate}
 
 \section{Normality of Data}
@@ -97,44 +94,16 @@ ping, download speed, upload speed, internet
     \end{enumerate}
 
     \item[4.] 
-    \textbf{Download Jitter}: 
-    \begin{enumerate}
-        \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.60492, p-value $<$ 2.2e-16 (not normal)
-    \end{enumerate}
-
-    \item[5.] 
-    \textbf{Upload Jitter}: 
-    \begin{enumerate}
-        \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.78504, p-value $<$ 2.2e-16 (not normal)
-    \end{enumerate}
-
-    \item[6.] 
     \textbf{Ping Jitter}: 
     \begin{enumerate}
         \item \textbf{Test}: Kolmogorov-Smirnov Test
         \item \textbf{Result}: D = 0.50309, p-value $<$ 2.2e-16 (not normal)
     \end{enumerate}
-
-    \item[7.]   
-    \textbf{Download Average Latency}: 
-    \begin{enumerate}
-        \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.87014, p-value $<$ 2.2e-16 (not normal)
-    \end{enumerate}
-
-    \item[8.]   
-    \textbf{Upload Average Latency}: 
-    \begin{enumerate}
-        \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.88351, p-value $<$ 2.2e-16 (not normal)
-    \end{enumerate}
 \end{enumerate}
 
 \section{Methodology}
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/experimental_setup.png}}
+\begin{figure}[!htbp]
+\centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture0.png}}
 \caption{A scenario in evaluating internet speed test.}
 \label{fig1}
 \end{figure}
@@ -163,137 +132,82 @@ Hypothesis 1: The internet speed will not exceed the customer's plan.
 \end{itemize}
 
 \section{Figures}
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture1.png}}
+
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture1.png}}
     \caption{Box Plot for Internet Speed.}
     \label{fig2}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture2.png}}
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture2.png}}
     \caption{Box Plot for Ping.}
     \label{fig3}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture3.png}}
-    \caption{Box Plot for Download Jitter.}
-    \label{fig4}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture4.png}}
-    \caption{Box Plot for Upload Jitter.}
-    \label{fig4}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture5.png}}
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture3.png}}
     \caption{Box Plot for Ping Jitter.}
+    \label{fig4}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture4.png}}
+    \caption{Class Interval for Download Speed.}
     \label{fig5}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture6.png}}
-    \caption{Box Plot for Upload Latency.}
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture5.png}}
+    \caption{Class Interval for Upload Speed.}
     \label{fig6}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture7.png}}
-    \caption{Box Plot for Download Latency.}
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture6.png}}
+    \caption{Class Interval for Ping.}
     \label{fig7}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture17.png}}
-    \caption{Time Series for Internet Speed.}
+\begin{figure}[!htbp]
+    \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture7.png}}
+    \caption{Class Interval for Ping Jitter.}
     \label{fig8}
 \end{figure}
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture18.png}}
-    \caption{Time Series for Ping.}
-    \label{fig9}
-\end{figure}
+%% Best Fit to Column 
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture19.png}}
-    \caption{Time Series for Download Jitter.}
-    \label{fig10}
-\end{figure}
+\section{Conclusion}
+The Raw Test has 1784 test sample, when we clean the data the test sample became 1754.
+We clean the data by removing any blank test where the test did not run successfully, when the test server is
+Globe Telecom, Suniway Telecom, OCEAN WAVE COMMUNICATIONS CORP.
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture20.png}}
-    \caption{Time Series for Upload Jitter.}
-    \label{fig11}
-\end{figure}
+\section{Recommendation}
+Since we only measure the speed test from PLDT ISP located at Tandang Sora, Quezon City. We cannot say anything about other ISP
+provider in the Philippines at one specific location. When trying to replicate this research, our suggestion is to test other ISP 
+Provider in the Philippines with different location. What we can say is that we you are in Quezon City you might have similar experiences, 
+what we have measured in this research. 
 
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture21.png}}
-    \caption{Time Series for Download Jitter.}
-    \label{fig12}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture22.png}}
-    \caption{Time Series for Upload Latency.}
-    \label{fig13}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture23.png}}
-    \caption{Time Series for Download Latency.}
-    \label{fig14}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture24.png}}
-    \caption{Class Interval for Download Speed.}
-    \label{fig15}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture25.png}}
-    \caption{Class Interval for Upload Speed.}
-    \label{fig16}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture26.png}}
-    \caption{Class Interval for Ping.}
-    \label{fig17}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture27.png}}
-    \caption{Class Interval for Download Jitter.}
-    \label{fig17}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture29.png}}
-    \caption{Class Interval for Upload Jitter.}
-    \label{fig17}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture30.png}}
-    \caption{Class Interval for Ping Jitter.}
-    \label{fig17}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture31.png}}
-    \caption{Class Interval for Upload Latency.}
-    \label{fig17}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centerline{\includegraphics[width=10cm,height=8cm,keepaspectratio]{Figures/Picture32.png}}
-    \caption{Class Interval for Download Latency.}
-    \label{fig17}
-\end{figure}
+\section{Appendix}
+\begin{table}[htbp]
+    \centering
+    \caption{Performance Metrics}
+    \begin{tabular}{lcccc}
+        \textbf{Metric} & \textbf{Download Speed} & \textbf{Upload Speed} & \textbf{Ping} & \textbf{Ping Jitter} \\
+        Total Number of Test & 1,753.00 & 1,753.00 & 1,753.00 & 1,753.00 \\
+        Minimum Speed & 424,178,432.00 & 349,885,080.00 & 0.70 & 0.01 \\
+        Maximum Speed & 632,378,064.00 & 937,171,528.00 & 23.43 & 6.80 \\
+        Range & 208,199,632.00 & 587,286,448.00 & 22.73 & 6.80 \\
+        Average Speed (Overall) & 613,461,855.92 & 752,733,053.86 & 1.22 & 0.23 \\
+        Standard Deviation & 17,721,463.16 & 126,803,633.70 & 0.68 & 0.37 \\
+        First Quartile (Exclusive) & 612,580,172.00 & 637,221,592.00 & 0.97 & 0.09 \\
+        Second Quartile (Exclusive)/Median Speed & 615,258,688.00 & 793,767,816.00 & 1.04 & 0.16 \\
+        Third Quartile (Exclusive) & 621,806,816.00 & 862,806,712.00 & 1.41 & 0.24 \\
+        Interquartile Range & 9,226,644.00 & 225,585,120.00 & 0.44 & 0.14 \\
+        Skewness of Distribution & -5.25 & -0.47 & 21.84 & 8.45 \\
+    \end{tabular}
+    \label{tab:performance}
+\end{table}
 
 \begin{thebibliography}{00}
 \bibitem{b1} S. Bauer et al., “Understanding broadband speed measurements”, MIT. Accessed: June 30,2024. [Online]. Available: https://groups.csail.mit.edu/ana/Publications/Understanding\_broadband\_
@@ -309,4 +223,5 @@ speed\_measurements\_bauer\_clark\_lehr\_TPRC\_2010.pdf.
 \bibitem{b10} S. Hasan and W. Woo, “What's my Daily Value? Interpretation of network performance metrics in broadband consumer labels”, Association for Computing Machinery, New York, NY, USA, 2023, pp. 8-24, doi: 10.1145/3609396.3610546
 
 \end{thebibliography}
+
 \end{document}
