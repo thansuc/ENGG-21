@@ -115,7 +115,7 @@ Nathan Joshua B. Sucgang
 
         $= \displaystyle P\left(\leq Z \leq 2.36 \right)$
     
-        $=0.9909$
+        $=0.9908$
         \item What assumption did you make in solving part (a)?
         
         Solution:
@@ -205,7 +205,7 @@ Nathan Joshua B. Sucgang
 
         $P\left(X_n \geq \frac{n}{2}\right) = P\left(Z \leq 0.44\right)$
 
-        $= 0.67$
+        $= 0.6711$
         \item n = 100;
         
         $a_{100} = \frac{100/2 - 0.5 -0.52(100)}{\sqrt{0.2496(100)}}$
@@ -214,7 +214,7 @@ Nathan Joshua B. Sucgang
 
         $P\left(X_n \geq \frac{n}{2}\right) = P\left(Z \leq 0.5\right)$
 
-        $= 0.6915$
+        $= 0.6918$
 
         \item n = 1000;
         
@@ -224,7 +224,7 @@ Nathan Joshua B. Sucgang
 
         $P\left(X_n \geq \frac{n}{2}\right) = P\left(Z \leq 1.3\right)$
 
-        $= 0.9023$
+        $= 0.9027$
         \item n = 10,000.
         
         $a_{10000} = \frac{10000/2 - 0.5 -0.52(10000)}{\sqrt{0.2496(10000)}}$
@@ -233,7 +233,7 @@ Nathan Joshua B. Sucgang
 
         $P\left(X_n \geq \frac{n}{2}\right) = P\left(Z \leq 4.01\right)$
 
-        $= 1$
+        $= .9997$
     \end{enumerate}
 
     \item An electric scale gives a reading equal to the true weight plus a random error that is normally distributed with mean 0 and standard deviation $\sigma$ = .1 mg. Suppose that the results of five successive weighings of the same object are as follows: $3.142, 3.163, 3.155, 3.150, 3.141$.
@@ -277,24 +277,27 @@ Nathan Joshua B. Sucgang
 
         $133.22 - 2.11(10.2128)/\sqrt{18} \leq \mu \leq 133.22 + 2.11(10.2128)/\sqrt{18}$
 
-        $128.141 \leq \mu \leq 138.3$
+        $128.141 \leq \mu \leq 138.30$
 
+        $(128.141, 138.30)$
         \item Construct a 95 percent lower confidence interval estimate.
         
-        $\mu \leq \bar{x} + z_{0.005}\sigma/\sqrt{n}$
+        $\mu \leq \bar{x} - z_{0.005}\sigma/\sqrt{n}$
 
-        $\mu \leq 133.22 + 1.74(10.2128)/\sqrt{18}$
-
-        $\mu \leq 137.41$
-
-        \item Construct a 95 percent upper confidence interval estimate.
-        
-        $\bar{x} - z_{0.025}\sigma/\sqrt{n} \leq \mu$
-
-        $133.22 - 1.74(10.2128)/\sqrt{18} \leq \mu$
+        $\mu \leq 133.22 - 1.74(10.2128)/\sqrt{18}$
 
         $\mu \leq 129.03$
 
+        $(-\infty, 129.03)$
+        \item Construct a 95 percent upper confidence interval estimate.
+        
+        $\bar{x} + z_{0.025}\sigma/\sqrt{n} \leq \mu$
+
+        $133.22 + 1.74(10.2128)/\sqrt{18} \leq \mu$
+
+        $\mu \leq 137.41$
+
+        $(137.41, \infty)$
     \end{enumerate}
     \item The capacities (in ampere-hours) of 10 batteries were recorded as follows:
     
@@ -323,6 +326,8 @@ Nathan Joshua B. Sucgang
 
         $12.3 \leq \sigma^2 \leq 167.67$
 
+        $(12.3, 153.83, 167.67)$
+
         \item Compute a value $v$ that enables us to state, with 90 percent confidence, that $\sigma^2$ is less than $v$.
         
         Solution: 
@@ -331,7 +336,7 @@ Nathan Joshua B. Sucgang
 
         $0 \leq \sigma^2 \leq 9\left(\frac{32.23}{4.17}\right)$
 
-        $0 \leq \sigma^2 \leq 69.56$
+        $0 \leq \sigma^2 \leq 69.6$
 
     \end{enumerate}
     \item Independent random samples are taken from the output of twomachines on a production line. 
@@ -374,7 +379,7 @@ Nathan Joshua B. Sucgang
 
     $\left(120 - 130 - 2.627(2.155){(1/36+1/64)}, 120 - 130 + 2.627(2.155){(1/36+1/64)}\right)$
 
-    $\left(-11.18, 8.82\right)$
+    $\left(-11.18, -8.82\right)$
 
     \item  To estimate $p$, the proportion of all newborn babies that are male, the gender of 10,000 newborn babies was noted. If 5106 of them were male, determine
    
@@ -393,6 +398,8 @@ Nathan Joshua B. Sucgang
         $(0.5106 - 1.645\sqrt{0.5106(1-0.5106)/10000}, 0.5106 + 1.645\sqrt{0.5106(1-0.5106)/10000})$
 
         $(0.5023, 0.5188)$
+
+        $0.5106 \pm 0.10$
         \item a 99 percent confidence interval estimate of $p$.
         
         $(\hat{p} - z_{0.05}\sqrt{\hat{p}(1-\hat{p})/n}, \hat{p} + z_{0.05}\sqrt{\hat{p}(1-\hat{p})/n})$\
@@ -400,6 +407,8 @@ Nathan Joshua B. Sucgang
         $(0.5106 - 2.58\sqrt{0.5106(1-0.5106)/10000}, 0.5106 + 2.58\sqrt{0.5106(1-0.5106)/10000})$
 
         $(0.5977, 0.5235)$
+
+        $0.5106 \pm .013$
     \end{enumerate}
 \end{enumerate}
 \end{document}
