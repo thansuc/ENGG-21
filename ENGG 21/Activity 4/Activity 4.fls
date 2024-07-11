@@ -1,7 +1,7 @@
 PWD c:\Users\Miguel\OneDrive\Documents\Programming\LaTeX\ENGG 21\Activity 4
 INPUT C:\Users\Miguel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Miguel\OneDrive\Documents\Programming\LaTeX\ENGG 21\Activity 4\Activity.tex
-OUTPUT Activity.log
+INPUT c:\Users\Miguel\OneDrive\Documents\Programming\LaTeX\ENGG 21\Activity 4\Activity 4.tex
+OUTPUT Activity 4.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
@@ -24,15 +24,19 @@ INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Activity.aux
-INPUT .\Activity.aux
-INPUT Activity.aux
-OUTPUT Activity.aux
-OUTPUT Activity.pdf
+INPUT .\Activity 4.aux
+INPUT .\Activity 4.aux
+INPUT Activity 4.aux
+OUTPUT Activity 4.aux
+OUTPUT Activity 4.pdf
 INPUT C:\Users\Miguel\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT Activity.aux
+INPUT Activity 4.aux
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
