@@ -24,11 +24,37 @@ Nathan Joshua B. Sucgang
     $Var(X_i) = \displaystyle \sum_{x_i = 1}^6 {\frac{1}{6}{(x - \frac{7}{2})}^2 = \frac{35}{12}}$
 
     Let $X = \displaystyle \sum_{x_i = 1}^6 {X_i}$
+
+    $E[X_i] = \displaystyle \sum_{x_i = 1}^{10} {E(X_i)} = 10(\frac{7}{5}) = 35$
+
+    $Var(X_i) = \displaystyle \sum_{x_i = 1}^{10} {Var[X_i]} = 10(\frac{35}{12}) = \frac{350}{12}$
+
+    $P(30 \leq X \leq 40) = P(29.5 < X < 39.5)$
+
+    $= \displaystyle P\left(\frac{29.5 - 35}{\sqrt{350/12}}<\frac{X - 35}{\sqrt{350/12}}\frac{39.5 - 35}{\sqrt{350/12}}\right)$
+
+    $= \displaystyle P\left(-1.02 \leq Z \leq 1.02 \right)$
+
+    $= 2(0.8461)-1$
+
+    $=0.6922$
+
     \item A highway department has enough salt to handle a total of 80 inches of snowfall. Suppose the daily amount of snow has a mean of 1.5 inches and a standard deviation of .3 inch.
     \begin{enumerate}
         \item Approximate the probability that the salt on hand will suffice for the next 50 days.
+        
+        Solution:
+
         \item What assumption did you make in solving part (a)?
+        
+        Solution:
+
+        It is assumed that $X_i$ are independent and normal distributed random variables
         \item Do you think this assumption is justified? Explain briefly.
+        
+        Solution:
+
+        This assumption is not justified because given snowfall in last few days is dependent on the atmospheric conditions, which would also affect today's rainfall.
     \end{enumerate}
     \item  The lifetime (in hours) of a type of electric bulb has expected value 500 and standard deviation 80. 
     Approximate the probability that the sample mean of n such bulbs is greater than 525 when
