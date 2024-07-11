@@ -2,6 +2,7 @@
 \usepackage{blindtext}
 \usepackage{amsmath}
 \usepackage{multicol}
+\usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 \begin{document}
 
@@ -13,8 +14,8 @@ Nathan Joshua B. Sucgang
     \item Suppose that $X_1, X_2, X_3$ are independent with common probability mass function: $P\{X_i = 0 \} = .2, P\{X_i = 1 \} = .3, P\{X_i = 3 \} = .5, i = 1,2,3$
     \begin{enumerate}
         \item Plot the probability mass function of the average of a sample size of 2. $X_2 = \frac{X_1+X_2}{2}$
-        \begin{multicols}{2}
-            \begin{tabular}{|c|c|c|}
+        
+        \begin{tabular}{|c|c|c|}
                 \hline
                 \textbf{Event} & \bf{$X_2$} & \textbf{Probability} \\
                 \hline
@@ -26,9 +27,10 @@ Nathan Joshua B. Sucgang
                 0,3 & 1.5 & 0.1 \\
                 \hline
                 \end{tabular}
-            \columnbreak
-            
-            \end{multicols}
+        \begin{figure}[!htbp]
+                \centerline{\includegraphics[keepaspectratio]{Picture/Picture1.png}}
+                \label{fig1}
+            \end{figure}
 
             
         \item Determine $E[X_2]$ and $Var(X_2)$
@@ -58,7 +60,11 @@ Nathan Joshua B. Sucgang
             1,3,3 & 2.333333333 & 0.075 \\
             \hline
             \end{tabular}
-
+        
+        \begin{figure}[!htbp]
+                \centerline{\includegraphics[keepaspectratio]{Picture/Picture2.png}}
+                \label{fig1}
+            \end{figure}
         \item Determine $E[X_3]$ and $Var(X_3)$
         
         $\displaystyle E[X_3] = \sum_{i=1}^n{(x_i)P(x_i)}$
