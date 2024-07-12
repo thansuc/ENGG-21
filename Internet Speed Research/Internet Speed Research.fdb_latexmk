@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1720770837.50483 "e:/BACKUP/Computer Programming/ENGG-21/Internet Speed Research/Internet Speed Research.tex" "Internet Speed Research.pdf" "Internet Speed Research" 1720770841.84054 0
+["pdflatex"] 1720772678.56681 "e:/BACKUP/Computer Programming/ENGG-21/Internet Speed Research/Internet Speed Research.tex" "Internet Speed Research.pdf" "Internet Speed Research" 1720772683.06239 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136743454 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136743454 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -68,7 +68,7 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1720764218 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Administrator/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1720765147 24132158 cc552b9ed596c76ca8d873ce9e3f1d12 ""
-  "Figures/Picture0.png" 1720755412 235571 fc63e538f4f55197422d03a73765720c ""
+  "Figures/Picture0.png" 1720772672 593346 ae00cf71e39ab479210f6af18cc7b424 ""
   "Figures/Picture1.png" 1720768646 24180 5d30a8337b23f6d7bae11dac28bdb28f ""
   "Figures/Picture2.png" 1720768651 10006 151efe618a081f1db6c9c4e2a710eb95 ""
   "Figures/Picture3.png" 1720768656 27380 3b47faaf1992551b0fa00ec8912aa612 ""
@@ -77,9 +77,9 @@
   "Figures/Picture7.png" 1720768674 575520 d4cac3e5ba5297ac42820640a8f1b6f3 ""
   "Figures/Picture8.png" 1720768681 155901 31ed4cedca95b8447e5017874c5255af ""
   "IEEEtran.cls" 1720755412 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "Internet Speed Research.aux" 1720770841 2685 6faf6a2abe8b5bb413f459c48ff3d328 "pdflatex"
-  "Internet Speed Research.tex" 1720770835 18481 6dd7cf808fc7d1a4114ebdd3f63288a1 ""
-  "e:/BACKUP/Computer Programming/ENGG-21/Internet Speed Research/Internet Speed Research.tex" 1720770835 18481 6dd7cf808fc7d1a4114ebdd3f63288a1 ""
+  "Internet Speed Research.aux" 1720772682 2685 6faf6a2abe8b5bb413f459c48ff3d328 "pdflatex"
+  "Internet Speed Research.tex" 1720771601 18763 f89e460bdec23204f0936e75fe433014 ""
+  "e:/BACKUP/Computer Programming/ENGG-21/Internet Speed Research/Internet Speed Research.tex" 1720771601 18763 f89e460bdec23204f0936e75fe433014 ""
   (generated)
   "Internet Speed Research.aux"
   "Internet Speed Research.log"

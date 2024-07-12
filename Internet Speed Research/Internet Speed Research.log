@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.7.12)  12 JUL 2024 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.7.12)  12 JUL 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -302,16 +302,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/Picture0.png, id=1, 879.285pt x 661.47125pt>
+<Figures/Picture0.png, id=1, 477.7047pt x 164.7756pt>
 File: Figures/Picture0.png Graphic file (type png)
 <use Figures/Picture0.png>
 Package pdftex.def Info: Figures/Picture0.png  used on input line 106.
-(pdftex.def)             Requested size: 226.9182pt x 170.70671pt.
+(pdftex.def)             Requested size: 227.61913pt x 78.51309pt.
  [1{C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
  <./Figures/Picture0.png>]
-Overfull \hbox (25.99908pt too wide) in paragraph at lines 139--152
+Overfull \hbox (32.66306pt too wide) in paragraph at lines 138--152
  [][] 
  []
 
@@ -352,42 +352,42 @@ File: Figures/Picture8.png Graphic file (type png)
 Package pdftex.def Info: Figures/Picture8.png  used on input line 204.
 (pdftex.def)             Requested size: 227.61237pt x 51.31795pt.
  [3 <./Figures/Picture1.png> <./Figures/Picture2.png> <./Figures/Picture3.png> <./Figures/Picture4.png> <./Figures/Picture5.png> <./Figures/Picture7.png> <./Figures/Picture8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 []\OT1/ptm/m/n/8 S. Bauer et al., \Un-der-stand-ing broad-band speed mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 \OT1/ptm/m/n/8 ments", MIT. Ac-cessed: June 30,2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 \OT1/ptm/m/n/8 https://groups.csail.mit.edu/ana/Publications/Understanding[]broadband[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 \OT1/ptm/m/n/8 SPEEDTEST. Ac-cessed: June 30, 2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 \OT1/ptm/m/n/8 https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 238--239
+Underfull \hbox (badness 3088) in paragraph at lines 237--238
 []\OT1/ptm/m/n/8 R. Sharma et al., \Mea-sur-ing the Preva-lence of WiFi Bot-tle-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 238--239
+Underfull \hbox (badness 3930) in paragraph at lines 237--238
 \OT1/ptm/m/n/8 necks in Home Ac-cess Net-works," arXiv, Nov. 9 2023, doi:
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 []\OT1/ptm/m/n/10 The link to the Github Repos-i-tory:
  []
 
@@ -423,7 +423,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1047b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Internet Speed Research.pdf" (5 pages, 1131897 bytes).
+Output written on "Internet Speed Research.pdf" (5 pages, 1623968 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
