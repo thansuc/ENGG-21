@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.7.12)  12 JUL 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.7.12)  12 JUL 2024 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,41 +352,40 @@ File: Figures/Picture8.png Graphic file (type png)
 Package pdftex.def Info: Figures/Picture8.png  used on input line 204.
 (pdftex.def)             Requested size: 227.61237pt x 51.31795pt.
  [3 <./Figures/Picture1.png> <./Figures/Picture2.png> <./Figures/Picture3.png> <./Figures/Picture4.png> <./Figures/Picture5.png> <./Figures/Picture7.png> <./Figures/Picture8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 []\OT1/ptm/m/n/8 S. Bauer et al., \Un-der-stand-ing broad-band speed mea-sure-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 \OT1/ptm/m/n/8 ments", MIT. Ac-cessed: June 30,2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 \OT1/ptm/m/n/8 https://groups.csail.mit.edu/ana/Publications/Understanding[]broadband[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 \OT1/ptm/m/n/8 SPEEDTEST. Ac-cessed: June 30, 2024. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 \OT1/ptm/m/n/8 https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 237--238
+Underfull \hbox (badness 3088) in paragraph at lines 233--234
 []\OT1/ptm/m/n/8 R. Sharma et al., \Mea-sur-ing the Preva-lence of WiFi Bot-tle-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 237--238
+Underfull \hbox (badness 3930) in paragraph at lines 233--234
 \OT1/ptm/m/n/8 necks in Home Ac-cess Net-works," arXiv, Nov. 9 2023, doi:
  []
 
-[4]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -398,7 +397,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[4
 
 ] (Internet Speed Research.aux)
  ***********
@@ -413,15 +412,15 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4248 strings out of 475247
  66112 string characters out of 5767583
- 1940785 words of memory out of 5000000
+ 1939785 words of memory out of 5000000
  25735 multiletter control sequences out of 15000+600000
  600593 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1047b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Internet Speed Research.pdf" (5 pages, 1623951 bytes).
+Output written on "Internet Speed Research.pdf" (4 pages, 1623556 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

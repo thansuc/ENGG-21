@@ -30,10 +30,10 @@ geoffrey.guy@student.ateneo.edu}
 \maketitle
 
 \begin{abstract}
-    The internet has become more than a routine of everyone's life; 
+	The internet has become more than a routine of everyone's life; 
     it has become a necessity. This paper aims to use statistics to identify the different factors that affect many aspects of the internet such as its download speed, upload speed, and ping. 
     The research looks at various factors for the causes and changes in the internet's performance such as the location of the household receiving the signal for their internet. 
-    With this research information, the researchers of the paper intend to determine which possible factors hamper the internet's performance metrics in order to leave the issue in the hands of organizations who have the capacity to combat these same hindrances. 
+    With this research information, the researchers of the paper intend to determine the internet's performance metrics from a particular internet service provider (PLDT) in order to leave the issue in the hands of organizations who have the capacity to combat these same hindrances. 
     This data could also further improve the internet performance for the population, consequently improving a conventional part of urban societal life.
 \end{abstract}
 
@@ -45,7 +45,7 @@ ping, download speed, upload speed, internet
 \begin{enumerate}
     \item[1.]
     \textbf{Location}:
-    The location of the closest test server when the test was being conducted.
+    The location of the closest test server where the test is being conducted.
 
     \textbf{Source}: Data gathered from the Ookla Speedtest using Raspberry Pi 4. 
     \item[2.]    
@@ -108,8 +108,8 @@ ping, download speed, upload speed, internet
 \label{fig1}
 \end{figure}
 As shown in Fig. 1. The Methodology involve collecting data from the Ookla Speedtest using Raspberry Pi 4.
-The experiment was conducted from June 18 to June 30, 2024 amounting to 1116 data points. The dataset was cleaned by removing any test from Globe Telecom, any error that came with misconfigured network.
-Statistical analyses, including box plot, map graph, regression analysis, time series graph, was used to examined the relationship between download speed, upload speed, ping, jitter, and latency.
+The experiment was conducted from June 18 to July 10, 2024 amounting to 2152 data points. The dataset was cleaned by removing any test from any error that came with misconfigured network.
+Statistical analyses, including box plot, class interval, time series graph, was used to examined the relationship between download speed, upload speed, ping and jitter.
 MS Excel and Stat Kingdom was used to analyze the data. The statistical analysis was done to determine the factors that affect the internet speed test.
 
 \section{LITERATURE REVIEW}
@@ -150,9 +150,9 @@ Hypothesis 1: The internet speed will not exceed the customer's plan.
     \end{tabular}
     \label{tab:performance}
 \end{table}
-We can see the graphically representation, for the TABLE 1 in the figure 1 and figure 2.
-In the analysis of the data, we use logarithm transform to reduce the variability of data, given that the data set is skewed.
-We use one-sample t-test because it determines if the mean of a single sample is significantly different from a knowwn population mean.
+We can see the graphical representation, for TABLE 1 in Fig. 1 and Fig. 2.
+In the analysis of the data, we used logarithm transform to reduce the variability of data, given that the data set is skewed.
+We used one-sample t-test because it determines if the mean of a single sample is significantly different from a known population mean.
 For the download speed, we have signifance level of 0.01 and the expected mean of 600000, with the outliers included. 
 The result is the difference between the sample average and the expected average is big enough to be statistically significant. 
 In other words, we can reject the null hypothesis for the download speed.
@@ -162,7 +162,7 @@ In other words, we can reject the null hypothesis for the upload speed.
 For the ping, we have signifance level of 0.01 and the expected mean of 1, with the outliers included. 
 The result is the difference between the sample average and the expected average is big enough to be statistically significant. 
 In other words, we can reject the null hypothesis for the upload speed.
-Futhermore, we can see how the internet speed change through time and how ping change through time in the figure 7 and figure 8.
+Futhermore, we can see how the internet speed change through time and how ping change through time in the Fig. 7 and Fig. 8.
 
 \begin{figure}[!htbp]
     \centerline{\includegraphics[width=8cm,height=6cm,keepaspectratio]{Figures/Picture1.png}}
@@ -209,19 +209,15 @@ Futhermore, we can see how the internet speed change through time and how ping c
 \newpage
 
 \section{Discussion}
-
-This research was conducted within the span June 19, 2024 - July 10, 2024 and 2152 datasets. If people would want to improve this data, future researchers should follow the same methodology of the experiment but increase the time at which they perform the experiment. A longer experiment will naturally provide more accurate results as this approach gives data that will be closer to the mode of internet performance metrics for a particular internet’s all time performance. 
-
+This research was conducted within the span June 19, 2024 - July 10, 2024 and has 2152 datasets. If people would want to improve this data, future researchers should follow the same methodology of the experiment but increase the time at which they perform the experiment. A longer experiment will naturally provide more accurate results as this approach gives data that will be closer to the mode of internet performance metrics for a particular internet's all time performance. 
 In this experiment, the researchers also only used PLDT as their ISP. The information on this paper suggests that monitoring the services of multiple ISPs will give different results per ISP. The organized sections of data from this experiment will allow its readers to compare data from different ISPs. Meanwhile, this gathered data could validate the feasibility of the methodology of this experiment if outliers exist within the data. 
-
 The Internet exists for its practical usage, so it is suggested that future researchers test internet performance on multiple devices, but one at a time, and different softwares to analyze the performance of the internet with changing variables. This experiment aims to validate the performance of the internet through its ping, download, upload speeds, etc. for the reason of estimating its internet quality in practical use. With this information, it is suggested that future researchers evaluate the performance of the internet within the said parameters.
-
-An important concern of the researchers of this study is that the current reviews for PLDT show itself as a completely different result from the data of this experiment. In the Philippines, PLDT is known to have one of the worst customer satisfaction due to its poor internet services and unsatisfactory customer service. However, this research indicates that the internet speed of PLDT may not be of substandard quality. For this reason, the researchers recommend more tests on PLDT as an internet service provider (ISP) to question the preeminent perspective of Filipinos towards PLDT.
-
+An important concern of the researchers of this study is that the current reviews for PLDT show itself as a completely different result from the data of this experiment. In the Philippines, PLDT is known to have one of the worst customer satisfaction due to its poor internet services and unsatisfactory customer service. However, this research indicates that the internet speed of PLDT may not exactly be of substandard quality. For this reason, the researchers recommend more tests on PLDT as an internet service provider (ISP) to question the preeminent perspective of Filipinos towards PLDT.
 
 \section{Conclusion}
-PLDT has proven itself as a reliable internet service provider (ISP) because the measurements of the internet data in the experiment exceed the agreed plan between the consumer and his internet provider.
-The download and upload speed both exceed the internet plan of 600 mbps. This shows that the researchers of this paper will reject the null hypothesis as the performance of the internet exceeded its critical value of 600 mbps. For gamers who may find this information helpful, the speed of the tested PLDT internet in this experiment varies below 20\% from a ping of 1 milliseconds.
+PLDT has proven itself as a reliable internet service provider (ISP) because the measurements of the internet data in the experiment exceed the agreed plan of the internet that was tested in this paper. 
+The download and upload speed both exceed the internet plan of 600 mbps. This data shows that the null hypothesis was rejected as the performance of the internet exceeded its critical value of 600 mbps. 
+For gamers who may find this information helpful, the speed of the tested PLDT internet in this experiment varies below 20\% from a ping of 1 milliseconds. 
 In other words, this internet should be relatively good for online games.
 
 \begin{thebibliography}{00}
@@ -238,11 +234,5 @@ speed\_measurements\_bauer\_clark\_lehr\_TPRC\_2010.pdf.
 \bibitem{b10} S. Hasan and W. Woo, “What's my Daily Value? Interpretation of network performance metrics in broadband consumer labels”, Association for Computing Machinery, New York, NY, USA, 2023, pp. 8-24, doi: 10.1145/3609396.3610546
 
 \end{thebibliography}
-
-\newpage
-\section{Appendix}
-The link to the Github Repository:
-
-https://github.com/thansuc/ENGG-21/
 
 \end{document}
