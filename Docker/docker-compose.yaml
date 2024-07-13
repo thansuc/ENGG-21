@@ -1,0 +1,41 @@
+---
+services:
+    speedtest-tracker:
+        container_name: speedtest-tracker
+        ports:
+            - "192.168.1.90:8080:80"
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - APP_KEY=base64:d1y+fbBn85yRVz2THOzGyCifnMvz+kM137X8FwTa/mo=
+            - APP_DEBUG=true
+            - DB_CONNECTION=pgsql
+            - DB_HOST=db
+            - DB_PORT=5432
+            - DB_DATABASE=speedtest_tracker
+            - DB_USERNAME=speedy
+            - DB_PASSWORD=password
+            - SPEEDTEST_SCHEDULE=*/15 * * * *
+            - SPEEDTEST_SERVERS=7131,7123,7167,7205,7415
+            - PRUNE_RESULTS_OLDER_THAN=0
+            - CHART_DATETIME_FORMAT= 
+            - DISPLAY_TIMEZONE=Asia/Manila
+            - APP_TIMEZONE=Asia/Manila
+        volumes:
+            - /path/to/data:/config
+            - /path/to-custom-ssl-keys:/config/keys
+        image: lscr.io/linuxserver/speedtest-tracker:latest
+        restart: unless-stopped
+        depends_on:
+            - db
+    db:
+        image: postgres
+        restart: always
+        environment:
+            - POSTGRES_DB=speedtest_tracker
+            - POSTGRES_USER=speedy
+            - POSTGRES_PASSWORD=password
+        volumes:
+            - speedtest-db:/var/lib/postgresql/data
+volumes:
+  speedtest-db:
