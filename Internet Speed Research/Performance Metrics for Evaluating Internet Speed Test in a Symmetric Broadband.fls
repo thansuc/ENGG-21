@@ -1,7 +1,7 @@
 PWD e:\BACKUP\Computer Programming\ENGG-21\Internet Speed Research
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT e:\BACKUP\Computer Programming\ENGG-21\Internet Speed Research\Internet Speed Research.tex
-OUTPUT Internet Speed Research.log
+INPUT e:\BACKUP\Computer Programming\ENGG-21\Internet Speed Research\Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.tex
+OUTPUT Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -93,10 +93,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Internet Speed Research.aux
-INPUT .\Internet Speed Research.aux
-INPUT Internet Speed Research.aux
-OUTPUT Internet Speed Research.aux
+INPUT .\Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.aux
+INPUT .\Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.aux
+INPUT Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.aux
+OUTPUT Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -128,19 +128,11 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT .\Figures\Picture0.png
 INPUT .\Figures\Picture0.png
 INPUT .\Figures\Picture0.png
 INPUT .\Figures\Picture0.png
-OUTPUT Internet Speed Research.pdf
+OUTPUT Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.pdf
 INPUT .\Figures\Picture0.png
 INPUT .\Figures\Picture0.png
 INPUT .\Figures\Picture0.png
@@ -165,6 +157,14 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
@@ -228,9 +228,7 @@ INPUT .\Figures\Picture8.png
 INPUT .\Figures\Picture8.png
 INPUT .\Figures\Picture8.png
 INPUT .\Figures\Picture8.png
-INPUT Internet Speed Research.aux
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT Performance Metrics for Evaluating Internet Speed Test in a Symmetric Broadband.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb

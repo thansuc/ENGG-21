@@ -76,28 +76,21 @@ ping, download speed, upload speed, internet
     \textbf{Download Speed}: 
     \begin{enumerate}
         \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 1, p-value $<$ 2.2e-16 (not normal)
+        \item \textbf{Result}: D = 0.2535, p-value = 0 (not normal)
     \end{enumerate}
 
     \item[2.]
     \textbf{Upload Speed}:
     \begin{enumerate}
         \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 1, p-value $<$ 2.2e-16 (not normal)
+        \item \textbf{Result}: D = 0.1422, p-value = 0 (not normal)
     \end{enumerate}
 
     \item[3.]
     \textbf{Ping}:
     \begin{enumerate}
         \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.81376, p-value $<$ 2.2e-16 (not normal)
-    \end{enumerate}
-
-    \item[4.] 
-    \textbf{Ping Jitter}: 
-    \begin{enumerate}
-        \item \textbf{Test}: Kolmogorov-Smirnov Test
-        \item \textbf{Result}: D = 0.50309, p-value $<$ 2.2e-16 (not normal)
+        \item \textbf{Result}: D = 0.3123, p-value = 0 (not normal)
     \end{enumerate}
 \end{enumerate}
 
@@ -108,7 +101,7 @@ ping, download speed, upload speed, internet
 \label{fig1}
 \end{figure}
 As shown in Fig. 1. The Methodology involve collecting data from the Ookla Speedtest using Raspberry Pi 4.
-The experiment was conducted from June 18 to July 10, 2024 amounting to 2152 data points. The dataset was cleaned by removing any test from any error that came with misconfigured network.
+The experiment was conducted from June 19 to July 10, 2024 amounting to 2149 data points. The dataset was cleaned by removing any test from any error that came with misconfigured network.
 Statistical analyses, including box plot, class interval, time series graph, was used to examined the relationship between download speed, upload speed, ping and jitter.
 MS Excel and Stat Kingdom was used to analyze the data. The statistical analysis was done to determine the factors that affect the internet speed test.
 
@@ -125,10 +118,10 @@ Research data also encompassed the topic of people's understanding of the intern
 Futhermore, in the Philippines, the department of Information and Communications Technology (DICT) [7] released a proposal to provide free internet access for public spaces. This internet is meant to be provided to public universities, government offices, and some open areas. However, the minimum goal internet download speed in the proposal is only 2 mbps. This paper shows how the Philippines understands the importance of providing internet to the public and an internet's performance metrics to reach their aim to provide free accessible internet for the Filipino people.
 
 \section{HYPOTHESIS}
-Hypothesis 1: The internet speed will not exceed the customer's plan.
+\textbf{Hypothesis 1:} The internet speed will not exceed the customer's plan.
 \begin{itemize}
-    \item Alternative Hypothesis: The internet speed will exceed the customer's plan.
-    \item Research Gap: There is no set parameter for the customer to consistently and continuously monitor their internet to determine the instances whether the internet could exceed or fall short from the customer's plan or not. Additionally, there are no definite measures to determine whether the provider of the internet gives their customer the actual or precise speed for their agreed internet plan.
+    \item \textbf{Alternative Hypothesis:} The internet speed will exceed the customer's plan.
+    \item \textbf{Research Gap:} There is no set parameter for the customer to consistently and continuously monitor their internet to determine the instances whether the internet could exceed or fall short from the customer's plan or not. Additionally, there are no definite measures to determine whether the provider of the internet gives their customer the actual or precise speed for their agreed internet plan.
 \end{itemize}
 
 \section{PRELIMINARY FINDINGS}
@@ -137,16 +130,16 @@ Hypothesis 1: The internet speed will not exceed the customer's plan.
     \caption{Performance Metrics}
     \begin{tabular}{lcccc}
         \textbf{Metric} & \textbf{Download} & \textbf{Upload} & \textbf{Ping} & \textbf{Ping Jitter} \\
-        Minimum Speed & 89,837,152.00 & 93,723,416.00 & 0.60 & 0.01 \\
+        Minimum Speed & 424,178,432.00 & 349,885,080.00 & 0.60 & 0.01 \\
         Maximum Speed & 632,378,064.00 & 937,171,528.00 & 23.43 & 6.80 \\
-        Range & 542,540,912.00 & 843,448,112.00 & 22.83 & 6.80 \\
-        Average Speed & 613,121,723.48 & 754,177,328.04 & 1.18 & 0.22 \\
-        Standard Deviation & 25,807,279.29 & 128,417,367.37 & 0.62 & 0.34 \\
-        First Quartile & 612,531,642.00 & 640,169,942.00 & 0.97 & 0.09 \\
-        Second Quartile & 615,254,820.00 & 796,143,180.00 & 1.00 & 0.15 \\
-        Third Quartile & 621,962,114.00 & 863,315,248.00 & 1.38 & 0.23 \\
-        Interquartile Range & 9,430,472.00 & 223,145,306.00 & 0.41 & 0.14 \\
-        Percent Difference & 2.19\% & 25.70\% & 17.97\% & N/A \\
+        Range & 208,199,632.00 & 587,286,448.00 & 22.83 & 6.80 \\
+        Average Speed & 613,848,923.58 & 755,099,199.14 & 1.18 & 0.22 \\
+        Standard Deviation & 16,953,616.30 & 126,111,638.94 & 0.62 & 0.34 \\
+        First Quartile & 612,557,732.00 & 640,717,752.00 & 0.97 & 0.09 \\
+        Second Quartile & 615,269,336.00 & 796,300,520.00 & 1.00 & 0.15 \\
+        Third Quartile & 621,965,420.00 & 863,336,088.00 & 1.38 & 0.23 \\
+        Interquartile Range & 9,407,688.00 & 222,618,336.00 & 0.41 & 0.14 \\
+        Percent Error & 2.31\% & 25.85\% & 17.94\% & N/A \\
     \end{tabular}
     \label{tab:performance}
 \end{table}
@@ -161,7 +154,7 @@ The result is the difference between the sample average and the expected average
 In other words, we can reject the null hypothesis for the upload speed.
 For the ping, we have signifance level of 0.01 and the expected mean of 1, with the outliers included. 
 The result is the difference between the sample average and the expected average is big enough to be statistically significant. 
-In other words, we can reject the null hypothesis for the upload speed.
+In other words, we can reject the null hypothesis for the ping.
 Futhermore, we can see how the internet speed change through time and how ping change through time in the Fig. 7 and Fig. 8.
 
 \begin{figure}[!htbp]
@@ -209,7 +202,7 @@ Futhermore, we can see how the internet speed change through time and how ping c
 \newpage
 
 \section{Discussion}
-This research was conducted within the span June 19, 2024 - July 10, 2024 and has 2152 datasets. If people would want to improve this data, future researchers should follow the same methodology of the experiment but increase the time at which they perform the experiment. A longer experiment will naturally provide more accurate results as this approach gives data that will be closer to the mode of internet performance metrics for a particular internet's all time performance. 
+This research was conducted within the span June 19, 2024 to July 10, 2024 and has 2149 datasets. If people would want to improve this data, future researchers should follow the same methodology of the experiment but increase the time at which they perform the experiment. A longer experiment will naturally provide more accurate results as this approach gives data that will be closer to the mode of internet performance metrics for a particular internet's all time performance. 
 In this experiment, the researchers also only used PLDT as their ISP. The information on this paper suggests that monitoring the services of multiple ISPs will give different results per ISP. The organized sections of data from this experiment will allow its readers to compare data from different ISPs. Meanwhile, this gathered data could validate the feasibility of the methodology of this experiment if outliers exist within the data. 
 The Internet exists for its practical usage, so it is suggested that future researchers test internet performance on multiple devices, but one at a time, and different softwares to analyze the performance of the internet with changing variables. This experiment aims to validate the performance of the internet through its ping, download, upload speeds, etc. for the reason of estimating its internet quality in practical use. With this information, it is suggested that future researchers evaluate the performance of the internet within the said parameters.
 An important concern of the researchers of this study is that the current reviews for PLDT show itself as a completely different result from the data of this experiment. In the Philippines, PLDT is known to have one of the worst customer satisfaction due to its poor internet services and unsatisfactory customer service. However, this research indicates that the internet speed of PLDT may not exactly be of substandard quality. For this reason, the researchers recommend more tests on PLDT as an internet service provider (ISP) to question the preeminent perspective of Filipinos towards PLDT.
@@ -217,7 +210,7 @@ An important concern of the researchers of this study is that the current review
 \section{Conclusion}
 PLDT has proven itself as a reliable internet service provider (ISP) because the measurements of the internet data in the experiment exceed the agreed plan of the internet that was tested in this paper. 
 The download and upload speed both exceed the internet plan of 600 mbps. This data shows that the null hypothesis was rejected as the performance of the internet exceeded its critical value of 600 mbps. 
-For gamers who may find this information helpful, the speed of the tested PLDT internet in this experiment varies below 20\% from a ping of 1 milliseconds. 
+For gamers who may find this information helpful, the speed of the tested PLDT internet in this experiment varies above 20\% from a ping of 1 milliseconds. 
 In other words, this internet should be relatively good for online games.
 
 \begin{thebibliography}{00}
@@ -228,7 +221,7 @@ speed\_measurements\_bauer\_clark\_lehr\_TPRC\_2010.pdf.
 \bibitem{b4} X. Deng et al., “Comparing Broadband ISP Performance using Big Data from M-Lab”, arXiv, Jan. 24, 2021, doi: 10.48550/arXiv.2101.09795.
 \bibitem{b5} R. B. Ikhsan et al., "Customer Loyalty Based On Internet Service Providers-Service Quality," 2022 6th International Conference on Informatics and Computational Sciences (ICICoS), Semarang, Indonesia, 2022, pp. 18-23, doi: 10.1109/ICICoS56336.2022.9930615.
 \bibitem{b6} C. Overturf., “How does Speedtest measure my network speeds?” SPEEDTEST. Accessed: June 30, 2024. [Online]. Available: https://help.speedtest.net/hc/en-us/articles/360038679354-How-does-Speedtest-measure-my-network-speeds
-\bibitem{b7} E. M. Rio, Jr.,  “rules and regulations implementing republic act (r.a.) no. 10929 known as the free internet access in public places act”. DICT. Accessed: June 30, 2024. [Online]. Available: https://dict.gov.ph/wp-content/uploads/2017/12/IRR-RA-10929-Version-8.pdf (accessed June 30, 2024).
+\bibitem{b7} E. M. Rio, Jr.,  “rules and regulations implementing republic act (r.a.) no. 10929 known as the free internet access in public places act”. DICT. Accessed: June 30, 2024. [Online]. Available: https://dict.gov.ph/wp-content/uploads/2017/12/IRR-RA-10929-Version-8.pdf.
 \bibitem{b8} A. Saengsai et al., "Broadband Internet Speed Dashboard for Sustainable Service Improvement in Thailand," 2024 IEEE International Conference on Big Data and Smart Computing (BigComp), Bangkok, Thailand, 2024, pp. 418-423, doi: 10.1109/BigComp60711.2024.00092. 
 \bibitem{b9} R. Sharma et al., “Measuring the Prevalence of WiFi Bottlenecks in Home Access Networks,” arXiv, Nov. 9 2023, doi: 10.48550/arxiv.2311.05499.
 \bibitem{b10} S. Hasan and W. Woo, “What's my Daily Value? Interpretation of network performance metrics in broadband consumer labels”, Association for Computing Machinery, New York, NY, USA, 2023, pp. 8-24, doi: 10.1145/3609396.3610546
