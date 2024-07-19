@@ -1,4 +1,4 @@
-\documentclass[6pt]{article}
+\documentclass[4pt]{article}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{array}
 \usepackage{algorithmic}
@@ -10,14 +10,293 @@
 \usepackage[margin=0.25in]{geometry}
 \begin{document}
 \begin{multicols*}{2}
+    \textbf{Statistical Methods}
 
+    \begin{enumerate}
+        \item Independent T-test (Parametric)
+        \begin{enumerate}
+            \item Normality, Homogeneity of Variances, Independence
+            \item Comparing means of two independent groups
+        \end{enumerate}
+        \textbf{Process}
+
+            1. Calculate the means 
+            $ \mu = \frac{\sum_{i=0}^{n}{x_i}}{n}$,
+
+            2. Calculate the standard deviation
+            $ \sigma^2 = \sqrt{\frac{\sum_{i=0}^{n}{x_i - \mu}}{n-1}}$, 
+
+            3. Calculate the pooled standard deviation 
+            
+            $\sqrt{\frac{(n_A-1)s_A^2+(n_B-1)s_B^2}{n_A+n_B-2}}$, 
+
+            4. Calculate the t-Statistic 
+            $ \frac{\bar{X_A} - \bar{X_B}}{s_p\sqrt{\frac{1}{n_A}+\frac{1}{n_B}}}$,
+
+            5. Determine the critical value and Compare
+            $df = n_A + n_B - 2$.
+
+            6. reject $H_O: |t| >$ critical value; accept $H_O: |t| \leq$ critical value
+
+
+        \item Mann-Whitney U test (Non-Parametric)
+        \begin{enumerate}
+            \item Independence, Continuous/Ordinal data
+            \item Comparing distributions of two independent groups
+        \end{enumerate}
+        \textbf{Process}
+
+            1. Combine and rank data,
+
+            2. Assign individual ranks, 
+
+            3. Calculate the sum of the ranks,
+            4.
+            Compute for the U statistic for the samples and choose the minimum,
+            
+            $ U_A = n_A \cdot n_B + \frac{n_A(n_A+1)}{2}; U_B = n_A \cdot n_B + \frac{n_B(n_B+1)}{2}; U = \text{min}(U_A,U_B)$,
+
+            5. Determine the critical value and Compare $n_A, n_B \, \text{at} \, \alpha = 0.05$.
+
+            6. reject $U <$ critical value; accept $H_O: U \geq$ critical value
+
+
+        \item Paired t-test (Parametric)
+        \begin{enumerate}
+            \item Normality of differences, Independence of Pairs
+            \item Comparing means of paired observation (cause/effect)
+        \end{enumerate}
+        \textbf{Process}
+
+            1. Calculate the differences,
+
+            2. Calculate the mean difference, 
+
+            3. Calculate the standard deviation of the difference, 
+
+            4. Calculate the t-Statistic,
+
+            5. Determine the critical value and Compare $df = n - 1 at \alpha = 0.05$.
+
+            6. reject $H_O: |t| >$ critical value; accept $H_O: |t| \leq$ critical value
+
+
+        \item Wilcoxon Signed-Rank Test (Non-Parametric)
+        \begin{enumerate}
+            \item Paired data, Continuous/Ordinal data
+            \item Comparing distributions of paired observations (cause/effect)
+        \end{enumerate}
+        \textbf{Process}
+
+            1. Calculate the differences and absolute values,
+
+            2. Rank absolute differences, 
+
+            3. Assign ranks with signs,
+
+            4. Calculate test statistic,
+
+            5. Determine the critical value and Compare $n \alpha = 0.05$.
+            
+            6. reject $H_O: W \leq$ critical; accept $H_O: W >$ critical
+
+        \item RMANOVA (Parametric)
+        \begin{enumerate}
+            \item Normality, Sphericity, Independence of Variances
+            \item Comparing means of related groups measured under different conditions
+        \end{enumerate}
+        \textbf{Process}
+
+        1. Calculate the group mean,
+
+        2. Calculate the overall mean, 
+
+        3. Calculate the Total Sum of Square $ SST = \sum{(X_{ij} - \bar{X})^2}$,
+
+        4. Calculate the Between-Groups Sum of Squares $ SSB = \sum{n_i(\bar{X_i}-\bar{X})^2}$
+
+        5. Determine the SSW $SSW = SST - SSB$.
+        
+        6. Calculate the Between-Groups Degrees of Freedom $ df_B = k - 1$
+
+        7. Calculate the Within-Groups Degrees of Freedom $ df_w = N - k$
+
+        8. Calculate the Mean Square Between $ MSB = \frac{SSB}{df_B}$
+
+        9. Calculate the Mean Square Within $ MSW = \frac{SSW}{df_W}$
+
+        10. Calculate the F statistic $ F = \dfrac{MSB}{MSW}$
+
+        11. Determine the critical value and Compare
+
+        12. accept $H_O: F_{\text{comp}} <$ critical value; reject $H_O: F_{\text{comp}} \geq$ critical value
+
+        \item Friedman Test (Non-Parametric)
+        \begin{enumerate}
+            \item Paired/Repeated measures, Continuous/Ordinal data
+            \item Comparing distributions of more than two related groups
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Rank each set of conditions for each transmitter, 
+    
+        2. Calculate the sum of the ranks for each conditions,
+
+        3. Calculate the Friedman test statistic using the chi-squared aprroximation $\chi_F^2 = \frac{12}{nk(k+1)}\sum{R_j^2-3n(k+1)}$,
+    
+        4. Determine critical value,
+
+        5. reject $\chi <$ critical value; accept $\chi \geq$ critical value
+
+        \item One Way ANOVA (Parametric)
+        \begin{enumerate}
+            \item Normality, Homeogeneity of variances, Independence
+            \item Comparing the means of more than two groups
+        \end{enumerate}
+        \textbf{Process}
+
+        Same as RMANOVA
+
+        \item Kruskal-Wallis Test (Non-Parametric)
+        \begin{enumerate}
+            \item Paired/Repeated measures, Continuous/Ordinal data
+            \item Comparing the distributions of more than two groups
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Combine and rank all data from all groups, 
+    
+        2. Sum the ranks for each group,
+
+        3. Calculate H statistic $ H = \frac{12}{N(N+1)\sum_{R_i^2}^{n_i}-3(N+1)}$,
+    
+        4. Determine critical value,
+
+        5. accept $H_O: H >$ critical value; reject $H_O: H \leq$ critical value
+
+        \item Pearson R
+        \begin{enumerate}
+            \item Interval/Ratio data, Linearity, Homogeneity of Variances
+            \item Measures the strength and direction of relationship between variables
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Compute the mean of distances and the mean of signal strengths $ \bar{x} = \frac{\sum_{i=0}^n{X_i}}{n}; \bar{y} = \frac{\sum_{i=0}^n{Y_i}}{n}$, 
+    
+        2. Compute the mean of distances and the mean of signal strengths $ \sum{(x_i-\bar{x})(y_i-\bar{y})}$,
+
+        3. Calculate the sum of squared deviations $ \sum{(x_i - \bar{x})^2}; \sum{(y_i-\bar{y})}$
+    
+        4. Compute for the Pearson R $ r = \frac{\sum{(x_i-\bar{x})(y_i-\bar{y})}}{\sqrt{\sum{(x_i-\bar{x})(y_i-\bar{y})}}}$,
+
+        5. \textbf{r value $|-|$ Interpretation}
+
+            $r/\rho = 1$ $|-|$ Perfect positive linear/monotonic correlation; $1 > r/\rho \geq 0.8$ $|-|$ Strong positive linear/monotonic correlation; $0.8 > r/\rho \geq 0.4$ $|-|$ Moderate positive linear/monotonic correlation;
+            $0.4 > r/\rho > 0$ $|-|$ Weak positive linear/monotonic correlation; $r/\rho = 0$ $|-|$ No correlation
+
+        \item Spearman Rho
+        \begin{enumerate}
+            \item Continuous/Ordinal data, Monotonic Relationship
+            \item Measures the strength and direction of relationship between variables
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Rank distances and strengths separately, 
+    
+        2. Calculate the difference in ranks and square them,
+
+        3. Compute the Spearman Rho $ \rho = 1 - \frac{6\sum{d_i^2}}{n(n^2-1)}$
+    
+        4. Same conclusion as Pearson R
+
+        \item Linear Regression {Parametric}
+        \begin{enumerate}
+            \item Linearity, Independence, Homegeneity of Variances, Normality
+            \item For modeling and predicting the relationship between a dependent variable 
+            (Y) and one or more independent variables (X).
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Rank distances and strengths separately, 
+    
+        2. Calculate the difference in ranks and square them,
+
+        3. Compute the Spearman Rho $ \rho = 1 - \frac{6\sum{d_i^2}}{n(n^2-1)}$
+    
+        4. Conclude
+
+        \item Multiple Regression {Parametric}
+        \begin{enumerate}
+            \item Linearity, Independence, Homeogeneity of Variances, No Multicollinearity
+            \item For modeling and predicting the relationship between a dependent variable 
+            (Y) and one or more independent variables (X).
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Calculate means $ \bar{X} = \frac{\sum_{i=0}^n{X_i}}{n};\bar{Y} = \frac{\sum_{i=0}^n{Y_i}}{n}$, 
+    
+        2. Calculate slope, 
+
+        3. Calculate the y - intercept $a = \bar{Y} - b\bar{X}$,
+    
+        4. Write the regression equation
+
+        5. Conclude
+
+        \item ANCOVA (Parametric)
+        \begin{enumerate}
+            \item Linearity, Homegeneity of Regression Slopes, Independence, Measurement of the Covariate
+            \item Compares a response variable by both a factor and a continuous independent variable
+        \end{enumerate}
+        \textbf{Process}
+            
+        1. Understand the given data
+    
+        2. Compute the Overall Mean for Transmission Rate, 
+
+        3. Compute the factor means,
+    
+        4. Compute for the adjusted means, if $\bar{X_A}=\bar{X_B}=\bar{X_C}$ then no adjustment
+
+        5. Calculate the $SS_T$; $SS_B$ and $SS_W$
+
+        6. accept $H_O: F_{\text{comp}} <$ critical value; reject $H_O: F_{\text{comp}} \geq$ critical value
+
+        \item MANOVA (Parametric)
+        \begin{enumerate}
+            \item Independence of Observations, Linearity, Adequate Sample Size
+            \item ANOVA with two or more continuous response variables
+        \end{enumerate}
+        \textbf{Process}
+        \begin{enumerate}
+            \item Understand the given data
+            \item Calculate the means
+            \item Calculate the slope $b_A=\frac{\sum{(x_A-\bar{X_A})(Y_A-\bar{Y_A})}}{\sum{(X_A-\bar{X_A})^2}}$
+            \item Calculate the slope $Y=Y_A+b_A(\bar{X}-\bar{X_A})$ and interpret the adjusted mean
+        \end{enumerate}
+
+        \item MANCOVA (Parametric)
+        \begin{enumerate}
+            \item Independence of Observations, Linearity, Adequate Sample Size, Linearity and Homegeneity of Regression Slopes, Measurement of the Covariate
+            \item One or more covariates are added to the mix
+        \end{enumerate}
+        \item $2^k$ Factorial design
+        \begin{enumerate}
+            \item Find the sum of squares: $ A=\frac{ab+a-b-(1)}{4n}$; $ B=\frac{ab+b-a-(1)}{4n}$; $ AB=\frac{ab+b-a-(1)}{4n}$; $ T=\sum_{i=1}^2 x_{ijk}^2 - \frac{y^2}{4n}$; $E=T-(A+B+{AB})$
+            \item Find the degree of Freedom: $a,b,ab=1$; $E=4(n-1)$; $T=4n$
+            \item Find the Mean Square: $A=\frac{SS_A}{df}$; $B=\frac{SS_B}{df}$; ${AB}=\frac{SS_{AB}}{df}$
+            \item Find $F_0$: $A=\frac{MS_A}{MS_E}$; $B=\frac{MS_B}{MS_E}$; $\frac{MS_{AB}}{MS_E} and F_{(A,E)}(0.05)$
+        \end{enumerate}
+    \end{enumerate}
+    
     \textbf{Descriptive Statistic} 
 
     - summarizes or describes the characteristics of a data set
 
-    \textbf{Absolute Frequency}
+    Absolute Frequency, Line Graph, Bar Graph, Frequency Polygon, Relative Frequency, Pie Chart
 
-    - data set having a relatively small number of distinct values can be conveniently presented in a frequency table.
+    Class Frequency, Histogram, Cumulative Frequency Plot, Stem and Leaf
+
     
     \textbf{Test of Hypothesis and Regression Models}
     
@@ -76,281 +355,5 @@
 
     \textbf{Strategy of Experiment}
     1. "Best-Guess" experiment, 2. One-factor-at-a-time (OFAT) experiments, Statistically designed experiments
-    \textbf{Statistical Methods}
-
-    \begin{enumerate}
-        \item Independent T-test (Parametric)
-        \begin{enumerate}
-            \item Normality, Homogeneity of Variances, Independence
-            \item Comparing means of two independent groups
-        \end{enumerate}
-        \textbf{Process}
-
-            1. Calculate the means $\displaystyle \mu = \frac{\sum_{i=0}^{n}{x_i}}{n}$,
-
-            2. Calculate the standard deviation $\displaystyle \sigma^2 = \sqrt{\frac{\sum_{i=0}^{n}{x_i - \mu}}{n-1}}$, 
-
-            3. Calculate the pooled standard deviation $\displaystyle s_p = \sqrt{\frac{(n_A-1)s_A^2+(n_B-1)s_B^2}{n_A+n_B-2}}$, 
-
-            4. Calculate the t-Statistic $\displaystyle \frac{\bar{X_A} - \bar{X_B}}{s_p\sqrt{\frac{1}{n_A}+\frac{1}{n_B}}}$,
-
-            5. Determine the critical value and Compare $df = n_A + n_B - 2 at \alpha = 0.05$.
-
-            6. Conclude
-
-
-        \item Mann-Whitney U test (Non-Parametric)
-        \begin{enumerate}
-            \item Independence, Continuous/Ordinal data
-            \item Comparing distributions of two independent groups
-        \end{enumerate}
-        \textbf{Process}
-
-            1. Combine and rank data,
-
-            2. Assign individual ranks, 
-
-            3. Calculate the sum of the ranks,
-            4.
-            Compute for the U statistic for the samples and choose the minimum,
-            
-            $\displaystyle U_A = n_A \cdot n_B + \frac{n_A(n_A+1)}{2}; U_B = n_A \cdot n_B + \frac{n_B(n_B+1)}{2}; U = \text{min}(U_A,U_B)$,
-
-            5. Determine the critical value and Compare $n_A, n_B \, \text{at} \, \alpha = 0.05$.
-
-            6. Conclude
-
-        \item Paired t-test (Parametric)
-        \begin{enumerate}
-            \item Normality of differences, Independence of Pairs
-            \item Comparing means of paired observation (cause/effect)
-        \end{enumerate}
-        \textbf{Process}
-
-            1. Calculate the differences,
-
-            2. Calculate the mean difference, 
-
-            3. Calculate the standard deviation of the difference, 
-
-            4. Calculate the t-Statistic,
-
-            5. Determine the critical value and Compare $df = n - 1 at \alpha = 0.05$.
-
-            6. Conclude
-
-
-        \item Wilcoxon Signed-Rank Test (Non-Parametric)
-        \begin{enumerate}
-            \item Paired data, Continuous/Ordinal data
-            \item Comparing distributions of paired observations (cause/effect)
-        \end{enumerate}
-        \textbf{Process}
-
-            1. Calculate the differences and absolute values,
-
-            2. Rank absolute differences, 
-
-            3. Assign ranks with signs,
-
-            4. Calculate test statistic,
-
-            5. Determine the critical value and Compare $n \alpha = 0.05$.
-            
-            6. Determnine critical value and Compare $W \leq/\geq W_{\text{critical}}$
-
-        \item RMANOVA (Parametric)
-        \begin{enumerate}
-            \item Normality, Sphericity, Independence of Variances
-            \item Comparing means of related groups measured under different conditions
-        \end{enumerate}
-        \textbf{Process}
-
-        1. Calculate the group mean,
-
-        2. Calculate the overall mean, 
-
-        3. Calculate the Total Sum of Square $\displaystyle SST = \sum{(X_{ij} - \bar{X})^2}$,
-
-        4. Calculate the Between-Groups Sum of Squares $\displaystyle SSB = \sum{n_i(\bar{X_i}-\bar{X})^2}$
-
-        5. Determine the SSW $SSW = SST - SSB$.
-        
-        6. Calculate the Between-Groups Degrees of Freedom $\displaystyle df_B = k - 1$
-
-        7. Calculate the Within-Groups Degrees of Freedom $\displaystyle df_w = N - k$
-
-        8. Calculate the Mean Square Between $\displaystyle MSB = \frac{SSB}{df_B}$
-
-        9. Calculate the Mean Square Within $\displaystyle MSW = \frac{SSW}{df_W}$
-
-        10. Calculate the F statistic $\displaystyle F = \dfrac{MSB}{MSW}$
-
-        11. Determine the critical value and Compare
-
-        12. Conclude
-
-        \item Friedman Test (Non-Parametric)
-        \begin{enumerate}
-            \item Paired/Repeated measures, Continuous/Ordinal data
-            \item Comparing distributions of more than two related groups
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Rank each set of conditions for each transmitter, 
-    
-        2. Calculate the sum of the ranks for each conditions,
-
-        3. Calculate the Friedman test statistic using the chi-squared aprroximation $\displaystyle \chi_F^2 = \frac{12}{nk(k+1)}\sum{R_j^2-3n(k+1)}$,
-    
-        4. Determine critical value,
-
-        5. Conclude
-
-        \item ANOVA (Parametric)
-        \begin{enumerate}
-            \item Normality, Homeogeneity of variances, Independence
-            \item Comparing the means of more than two groups
-        \end{enumerate}
-        \textbf{Process}
-
-        Same as RMANOVA
-
-        \item Kruskal-Wallis Test (Non-Parametric)
-        \begin{enumerate}
-            \item Paired/Repeated measures, Continuous/Ordinal data
-            \item Comparing the distributions of more than two groups
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Combine and rank all data from all groups, 
-    
-        2. Sum the ranks for each group,
-
-        3. Calculate H statistic $\displaystyle H = \frac{12}{N(N+1)\sum_{R_i^2}^{n_i}-3(N+1)}$,
-    
-        4. Determine critical value,
-
-        5. Conclude
-        \item Pearson R
-        \begin{enumerate}
-            \item Interval/Ratio data, Linearity, Homogeneity of Variances
-            \item Measures the strength and direction of relationship between variables
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Compute the mean of distances and the mean of signal strengths $\displaystyle \bar{x} = \frac{\sum_{i=0}^n{X_i}}{n}; \bar{y} = \frac{\sum_{i=0}^n{Y_i}}{n}$, 
-    
-        2. Compute the mean of distances and the mean of signal strengths $\displaystyle \sum{(x_i-\bar{x})(y_i-\bar{y})}$,
-
-        3. Calculate the sum of squared deviations $\displaystyle \sum{(x_i - \bar{x})^2}; \sum{(y_i-\bar{y})}$
-    
-        4. Compute for the Pearson R $\displaystyle r = \frac{\sum{(x_i-\bar{x})(y_i-\bar{y})}}{\sqrt{\sum{(x_i-\bar{x})(y_i-\bar{y})}}}$,
-
-        5. Conclude
-
-        \begin{tabular}{|c|c|}
-            \hline
-            \textbf{r value} & \textbf{Interpretation} \\
-            \hline
-            $r/\rho = 1$ & Perfect positive linear/monotonic correlation \\
-            \hline
-            $1 > r/\rho \geq 0.8$ & Strong positive linear/monotonic correlation \\
-            \hline
-            $0.8 > r/\rho \geq 0.4$ & Moderate positive linear/monotonic correlation \\
-            \hline
-            $0.4 > r/\rho > 0$ & Weak positive linear/monotonic correlation \\
-            \hline
-            $r/\rho = 0$ & No correlation \\
-            \hline
-            $0 > r/\rho \geq -0.4$ & Weak negative linear/monotonic correlation \\
-            \hline
-            $-0.4 > r/\rho \geq -0.8$ & Moderate negative linear/monotonic correlation \\
-            \hline
-            $-0.8 > r/\rho > -1$ & Strong negative linear/monotonic correlation \\
-            \hline
-            $r/\rho = -1$ & Perfect negative linear/monotonic correlation \\
-            \hline
-        \end{tabular}
-
-        \item Spearman Rho
-        \begin{enumerate}
-            \item Continuous/Ordinal data, Monotonic Relationship
-            \item Measures the strength and direction of relationship between variables
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Rank distances and strengths separately, 
-    
-        2. Calculate the difference in ranks and square them,
-
-        3. Compute the Spearman Rho $\displaystyle \rho = 1 - \frac{6\sum{d_i^2}}{n(n^2-1)}$
-    
-        4. Conclude
-
-        \item Linear Regression {Parametric}
-        \begin{enumerate}
-            \item Linearity, Independence, Homegeneity of Variances, Normality
-            \item For modeling and predicting the relationship between a dependent variable 
-            (Y) and one or more independent variables (X).
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Rank distances and strengths separately, 
-    
-        2. Calculate the difference in ranks and square them,
-
-        3. Compute the Spearman Rho $\displaystyle \rho = 1 - \frac{6\sum{d_i^2}}{n(n^2-1)}$
-    
-        4. Conclude
-
-        \item Multiple Regression {Parametric}
-        \begin{enumerate}
-            \item Linearity, Independence, Homeogeneity of Variances, No Multicollinearity
-            \item For modeling and predicting the relationship between a dependent variable 
-            (Y) and one or more independent variables (X).
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Calculate means $\displaystyle \bar{X} = \frac{\sum_{i=0}^n{X_i}}{n};\bar{Y} = \frac{\sum_{i=0}^n{Y_i}}{n}$, 
-    
-        2. Calculate slope, 
-
-        3. Calculate the y - intercept $a = \bar{Y} - b\bar{X}$,
-    
-        4. Write the regression equation
-
-        5. Conclude
-
-        \item ANCOVA (Parametric)
-        \begin{enumerate}
-            \item Linearity, Homegeneity of Regression Slopes, Independence, Measurement of the Covariate
-            \item Compares a response variable by both a factor and a continuous independent variable
-        \end{enumerate}
-        \textbf{Process}
-            
-        1. Understand the given data
-    
-        2. Compute the Overall Mean for Transmission Rate, 
-
-        3. Compute the factor means,
-    
-        4. Compute for the adjusted means, if needed.
-
-        5. Perform ANOVA on the adjusted means
-
-        6. Conclude
-
-        \item MANOVA (Parametric)
-        \begin{enumerate}
-            \item Independence of Observations, Linearity, Adequate Sample Size
-            \item ANOVA with two or more continuous response variables
-        \end{enumerate}
-        \item MANCOVA (Parametric)
-        \begin{enumerate}
-            \item Independence of Observations, Linearity, Adequate Sample Size, Linearity and Homegeneity of Regression Slopes, Measurement of the Covariate
-            \item One or more covariates are added to the mix
-        \end{enumerate}
-    \end{enumerate}
     \end{multicols*}
 \end{document}
